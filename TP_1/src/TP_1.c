@@ -68,6 +68,7 @@ int main(void) {
 				cargaForzada(&kmts, &precioXAero, &precioXLatam, preciosLatam, preciosAerolinea);
 				flagKm = 1;
 				flagPrecio = 1;
+				flagCalculado = 1;
 				break;
 			case 6:
 				printf("Hasta luego....");
